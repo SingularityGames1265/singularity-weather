@@ -14,6 +14,11 @@ body {
   padding: 40px 0; 
   box-sizing: border-box;
 }
+
+body .h1 {
+  color: #ffffff;
+  font-family: Arial;
+}
 /* ==============================
    CURSOR TRAIL
 ============================== */
