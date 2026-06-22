@@ -32,6 +32,7 @@ body::selection {
 .centered-div {
   background: transparent;
   backdrop-filter: blur(10px);
+  border-radius: 8px;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -50,7 +51,7 @@ body::selection {
   max-width: 700px;
   padding: 10px;
   margin: 0 auto;
-  background-color: #2e88a3;
+  background-color: transparent;
   font-family: courier;
   line-height: 1.25;
   letter-spacing: 0.5px;
@@ -107,6 +108,7 @@ body::selection {
   font-family: courier;
   background: transparent;
   backdrop-filter: blur(10px);
+  border-radius: 8px;
   font-weight: bold;
   border: 2px solid #ffffff;
   text-align: center;
@@ -114,7 +116,6 @@ body::selection {
   height: 175.5px;
   line-height: 1.25;
   letter-spacing: 0.5px;
-  border-radius: 8px;
 }
 
 .button p {
@@ -168,6 +169,7 @@ body::selection {
   margin: 0 auto;
   background: transparent;
   backdrop-filter: blur(10px);
+  border-radius: 8px;
   font-family: courier;
   line-height: 1.25;
   letter-spacing: 0.5px;
@@ -206,6 +208,7 @@ body::selection {
   margin: 0 auto;
   background: transparent;
   backdrop-filter: blur(10px);
+  border-radius: 8px;
   font-family: courier;
   text-align: center;
   line-height: 1.25;
