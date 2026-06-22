@@ -63,49 +63,6 @@ body::selection {
   font-family: courier;
 }
 
-
-/* ==============================
-   REGION THEMES
-============================== */
-
-.great-sea-of-the-unconcious {
-  background: linear-gradient(to top, #d1d1d1 0%, #111111 15%);
-  background-attachment: fixed;
-  }
-.oblivion {
-  background: radial-gradient(circle at 50% 20%, #bbbbbb 0%, #555555 30%, #303030 100%);
-  background-attachment: fixed;
-  }
-.adrenaline {
-  background:radial-gradient(circle at 50% 35%, rgba(255, 120, 200, 0.15) 0%, rgba(0, 0, 0, 0) 60%),
-  linear-gradient(to top, #050505 0%, #0f0f1a 40%, #1a0033 75%, #2a003a 100%);
-  background-attachment: fixed;
-  }
-.moon-room {
-  background:  radial-gradient(circle at 50% 20%, #dae1ed 0%, #000014 40%,#030336 100%);
-  background-attachment: fixed;
-  }
-.dreaming-we-were-snow {
-  background: linear-gradient(to top, #C5C7CF 0%, #7D9ECF 40%);
-  background-attachment: fixed;
-  }
-.snowed-in-mall {
-  background: linear-gradient(to top, #B9BECA 0%, #49525D 35%);
-  background-attachment: fixed;
-  }
-.symbolica {
-  background: linear-gradient(to bottom, #3a3f4a 0%, #1a1f25 100%);
-  background-attachment: fixed;
-  }
-.gallerys-staircase {
-  background: linear-gradient(to top, #A8A191 0%, #E7D9B7 25%);
-  background-attachment: fixed;
-  }
-.obelisk {
-  background: linear-gradient(to top, #191814 0%, #5d564c 40%, #927e6d 60%, #36332c 90%);
-  background-attachment: fixed;
-  }
-
 /* ==============================
    GRID LAYOUT
 ============================== */
@@ -135,10 +92,10 @@ body::selection {
 }
 
 /* ==============================
-   ENTRANCE BUTTON
+   BUTTON
 ============================== */
 
-.button-entrance {
+.button {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -153,10 +110,9 @@ body::selection {
   height: 175.5px;
   line-height: 1.25;
   letter-spacing: 0.5px;
-  cursor: url("https://the-void-plane.neocities.org/technical/cursors/look.png") 16 16, auto;
 }
 
-.button-entrance p {
+.button p {
   margin: 10px 5px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -166,95 +122,24 @@ body::selection {
   overflow: hidden;
 }
 
-.entrance-icon {
+.button-icon {
   width: 64px;
   height: 64px;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-image: url("https://the-void-plane.neocities.org/technical/icons/gateway.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   transition: background-image 0.2s ease;
 }
 
-.button-entrance:hover .entrance-icon {
-  background-image: url("https://the-void-plane.neocities.org/technical/icons/gateway-open.png");
-}
-
-.button-entrance:hover p {
+.button:hover p {
   text-decoration: underline;
 }
 
-.button-entrance.visited:hover p {
+.button.visited:hover p {
   text-decoration: underline;
 }
-
-/* ==============================
-   GATEWAY BUTTON
-============================== */
-
-.button-gateway {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  text-decoration: none;
-  color: #ffffff;
-  font-family: courier;
-  background-color: #111111;
-  font-weight: bold;
-  border: 2px solid #ffffff;
-  text-align: center;
-  width: 136px;
-  height: 175.5px;
-  line-height: 1.25;
-  letter-spacing: 0.5px;
-  cursor: url("https://the-void-plane.neocities.org/technical/cursors/look.png") 16 16, auto;
-}
-
-.button-gateway p {
-  margin: 10px 5px;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  overflow: hidden;
-}
-
-.gateway-icon {
-  width: 64px;
-  height: 64px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-image: url("https://the-void-plane.neocities.org/technical/icons/gateway.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  transition: background-image 0.2s ease;
-}
-
-.button-gateway:not(.visited):hover .gateway-icon {
-  background-image: url("https://the-void-plane.neocities.org/technical/icons/gateway-open.png");
-}
-
-.button-gateway:not(.visited):hover p {
-  text-decoration: underline;
-}
-
-.button-gateway.visited .gateway-icon {
-  background-image: url("https://the-void-plane.neocities.org/technical/icons/gateway-entered.png");
-}
-
-.button-gateway.visited:hover .gateway-icon {
-  background-image: url("https://the-void-plane.neocities.org/technical/icons/gateway-eyes.png");
-}
-
-.button-gateway.visited:hover p {
-  text-decoration: underline;
-}
-
 /* ==============================
    PAGE DIV
 ============================== */
@@ -345,77 +230,6 @@ body::selection {
 }
 
 /* ==============================
-   TYPEWRITER EFFECT
-============================== */
-
-.typewriter {
-  color: transparent;         /* hide text initially */
-  pointer-events: none;
-  user-select: none;
-}
-
-.typewriter h1 {
-  position: fixed;
-}
-
-.typewriter p {
-  position: relative;
-}
-
-.typewriter .visible-char {
-  color: #ffffff;             /* reveal text */
-  pointer-events: auto;
-  user-select: text;
-}
-
-.typewriter .archive-link {
-  pointer-events: none;
-}
-
-.caret {
-  display: inline-block;
-  width: 8px;
-  height: 1em;                /* match text height */
-  background: #ffffff;
-  vertical-align: bottom;
-  animation: blink 1s step-start infinite;
-}
-
-@keyframes blink {
-  0%, 50% { opacity: 1; }
-  50.01%, 100% { opacity: 0; }
-}
-
-/* ==============================
-   IMAGE LOADING EFFECT
-============================== */
-
-.image-div img.reveal-1 {
-  -webkit-mask-image: linear-gradient(to bottom, black 20%, transparent 20%);
-  mask-image: linear-gradient(to bottom, black 20%, transparent 20%);
-}
-
-.image-div img.reveal-2 {
-  -webkit-mask-image: linear-gradient(to bottom, black 40%, transparent 40%);
-  mask-image: linear-gradient(to bottom, black 40%, transparent 40%);
-}
-
-.image-div img.reveal-3 {
-  -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 60%);
-  mask-image: linear-gradient(to bottom, black 60%, transparent 60%);
-}
-
-.image-div img.reveal-4 {
-  -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 80%);
-  mask-image: linear-gradient(to bottom, black 80%, transparent 80%);
-}
-
-.image-div img.reveal-5 {
-  -webkit-mask-image: none;
-  mask-image: none;
-}
-
-/* ==============================
    LIGHTBOX
 ============================== */
 
@@ -455,63 +269,4 @@ body::selection {
   font-family: courier;
   color: #ffffff;
   margin: 0;
-}
-
-/* ==============================
-   RETURN BUTTON
-============================== */
-
-.button-return {
-  position: absolute;
-  left: 40px;
-  top: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  text-decoration: none;
-  color: #ffffff;
-  font-family: courier;
-  background-color: #111111;
-  font-weight: bold;
-  border: 2px solid #ffffff;
-  text-align: center;
-  width: 136px;
-  height: 175.5px;
-  line-height: 1.25;
-  letter-spacing: 0.5px;
-  cursor: url("https://the-void-plane.neocities.org/technical/cursors/look.png") 16 16, auto;
-}
-
-.button-return p {
-  margin: 10px 5px;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  overflow: hidden;
-}
-
-/* Default */
-.return-icon {
-  width: 64px;
-  height: 64px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-image: url("https://the-void-plane.neocities.org/technical/icons/gateway.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  transition: background-image 0.2s ease;
-}
-
-/* Hover (only if NOT visited) */
-.button-return:hover .return-icon {
-  background-image: url("https://the-void-plane.neocities.org/technical/icons/gateway-open.png");
-}
-
-/* Hover (only if NOT visited) */
-.button-return:hover p {
-  text-decoration: underline;
 }
