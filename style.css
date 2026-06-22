@@ -77,7 +77,13 @@ body::selection {
   justify-content: center;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 136px);
+  }
+}
+
+@media (max-width: 1199px) {
   .grid-container {
     grid-template-columns: repeat(3, 136px);
   }
