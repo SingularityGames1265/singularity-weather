@@ -53,18 +53,18 @@ body::selection {
   padding: 10px;
   margin: 0 auto;
   background-color: transparent;
-  font-family: courier;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.25;
   letter-spacing: 0.5px;
 }
 .borderless-textbox h1{
   text-align: center;
-  font-family: courier;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .borderless-textbox p{
   text-align: justify;
-  font-family: courier;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ==============================
@@ -112,7 +112,7 @@ body::selection {
   justify-content: flex-start;
   text-decoration: none;
   color: #ffffff;
-  font-family: courier;
+  font-family: Arial, Helvetica, sans-serif;
   background: transparent;
   backdrop-filter: blur(10px);
   border-radius: 8px;
@@ -177,18 +177,18 @@ body::selection {
   background: transparent;
   backdrop-filter: blur(10px);
   border-radius: 8px;
-  font-family: courier;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.25;
   letter-spacing: 0.5px;
 }
 .page-div h1{
   text-align: center;
-  font-family: courier;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .page-div p{
   text-align: justify;
-  font-family: courier;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .archive-link {
   color: inherit;
@@ -216,7 +216,7 @@ body::selection {
   background: transparent;
   backdrop-filter: blur(10px);
   border-radius: 8px;
-  font-family: courier;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   line-height: 1.25;
   letter-spacing: 0.5px;
@@ -295,7 +295,7 @@ body::selection {
 }
 
 .lightbox-content p {
-  font-family: courier;
+  font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
   margin: 0;
 }
