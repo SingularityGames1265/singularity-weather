@@ -8,6 +8,7 @@ html {
 
 body {
   background-image: url("background.png");
+  background: fixed;
   background-size: 100vw;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
