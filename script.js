@@ -11,7 +11,7 @@ const hasLoadedBefore = sessionStorage.getItem(pageKey);
      CURSOR TRAIL
   ============================== */
 
-  const colors = ['white', 'lightgray', 'gray'];
+  const colors = ['white', 'lightblue'];
 
   document.addEventListener('mousemove', function(e) {
     const trail = document.createElement('div');
