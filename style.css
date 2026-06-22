@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-color: #111111;
+  background-color: #43c3eb;
   color: #ffffff;
   font-family: Courier, monospace;
   min-height: 98.4vh;
@@ -29,7 +29,7 @@ body::selection {
 }
 
 .centered-div {
-  background-color: #111111;
+  background-color: #43c3eb;
   color: #ffffff;
   font-family: Courier, monospace;
   display: flex;
@@ -48,7 +48,7 @@ body::selection {
   max-width: 700px;
   padding: 10px;
   margin: 0 auto;
-  background-color: #111111;
+  background-color: #43c3eb;
   font-family: courier;
   line-height: 1.25;
   letter-spacing: 0.5px;
@@ -107,7 +107,8 @@ body::selection {
   text-decoration: none;
   color: #ffffff;
   font-family: courier;
-  background-color: #111111;
+  background: transparent;
+  backdrop-filter: blur(10px);
   font-weight: bold;
   border: 2px solid #ffffff;
   text-align: center;
@@ -115,6 +116,7 @@ body::selection {
   height: 175.5px;
   line-height: 1.25;
   letter-spacing: 0.5px;
+  border-radius: 8px;
 }
 
 .button p {
@@ -166,7 +168,7 @@ body::selection {
   padding: 10px;
   border: 2px solid #ffffff;
   margin: 0 auto;
-  background-color: #111111;
+  background-color: #43c3eb;
   font-family: courier;
   line-height: 1.25;
   letter-spacing: 0.5px;
@@ -203,7 +205,7 @@ body::selection {
   padding: 10px;
   border: 2px solid #ffffff;
   margin: 0 auto;
-  background-color: #111111;
+  background-color: #43c3eb;
   font-family: courier;
   text-align: center;
   line-height: 1.25;
