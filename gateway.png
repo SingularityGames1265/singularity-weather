@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Region: Snowed In Mall</title>
+    <link rel="stylesheet" href="https://the-void-plane.neocities.org/style.css">
+    <script src="https://the-void-plane.neocities.org/script.js"></script>
+  </head>
+  <body class="snowed-in-mall">
+    <div class="page-div">
+      <h1 class="typewriter">Region: Snowed In Mall</h1>
+      <p class="typewriter">This region resembles a shopping mall extending infinetly in all directions. This region of course, holds many stores and supermarkets. Apart from shops, the region also houses sportcenters, cinemas and even theaters. Banners, signs and packaging have the <a href="https://the-void-plane.neocities.org/other/babel-effect.html" class="archive-link">Babel Effect</a> applied to them.<br>
+      <br>
+      The outside of the mall features a heavy snowstorm. This can be observed via windows and the rare courtroom. It is not recommended to step outside, as temperatures directly dip to below freezing. The inside of the mall is a steady 20 degrees Celcius. Like some other regions of the Void Plane, the mall seems to be dependend on the visitor's birthplace, showing different facilities and architecture depending on where they are from.<br>
+      <br>
+      The region also depends on the time of year, displaying different decor during holidays, like christmas trees during christmas time. The mall also houses a speaker system all throughout.  These also play music depenting on the season. The played music does originate from earth. The speakers seem to be broadcasting from a radio station, but where there would be a commurcial break, a soft static is played. This static noise can last from a few minutes to hours at a time.</p>
+      </div>
+      <a href="https://the-void-plane.neocities.org/archive/regions.html" class="button-return">
+        <div class="return-icon"></div>
+        <p>Return to Regions</p>
+      </a>
+  </body>
+</html>

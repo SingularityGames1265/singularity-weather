@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Region: Oblivion</title>
+    <link rel="stylesheet" href="https://the-void-plane.neocities.org/style.css">
+    <script src="https://the-void-plane.neocities.org/script.js"></script>
+  </head>
+  <body class="oblivion">
+    <div class="page-div">
+      <h1 class="typewriter">Region: Oblivion</h1>
+      <p class="typewriter">Oblivion is one of the few regions that has an effect on the visitor's vision, making everything appear in black and white. Cameras and other forms of electronic equipment also falter here, so the region's true colours remain unknown. If a coloured light would be turned on here, it would turn into a white light, still illuminating its surroundings.<br>
+      <br>
+      The region resembles a tightly packed city with office buildings and flats. These buildings and roads seem to be in heavy disrepair, looking like ruins that have not been touched for hundreds of years. They act as if they are held together by the region's unique flora called <a href="https://the-void-plane.neocities.org/flora-and-fauna/plaque.html" class="archive-link">Plaque</a>. <br>
+      <br>
+      The thing most prevelant in this region is its sky. The sky has a light grey tone, but could be a different colour when regarding the region's greyscaling effect. There are a few lighter lines present that slowly spiral from the center of the sky to the horizon. In the center of the sky, a large eye is displayed. This eye has been noted to not move or blink. It is not clear if it is alive, or even an entity.</p>
+      </div>
+    <div class="image-div">
+      <img src="https://the-void-plane.neocities.org/regions/images/oblivion-eye.png" alt="The eye viewed from the streets down below">
+      <p>The eye viewed from the streets down below</p>
+    </div>
+    <div id="lightbox" class="lightbox">
+  <div class="lightbox-content">
+    <img id="lightbox-img" src="">
+    <p id="lightbox-caption"></p>
+  </div>
+</div>
+      <a href="https://the-void-plane.neocities.org/archive/regions.html" class="button-return">
+        <div class="return-icon"></div>
+        <p>Return to Regions</p>
+      </a>
+  </body>
+</html>
