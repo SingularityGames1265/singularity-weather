@@ -26,7 +26,6 @@ const hasLoadedBefore = sessionStorage.getItem(pageKey);
 
     trail.style.left = (e.clientX + offsetX) + 'px';
     trail.style.top = (e.clientY + offsetY) + 'px';
-    trail.style.transform = `rotate(${rotation}deg)`;
 
     document.body.appendChild(trail);
 
