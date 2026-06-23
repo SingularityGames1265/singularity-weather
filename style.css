@@ -311,3 +311,57 @@ body::selection {
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
   margin: 0;
 }
+
+/* ==============================
+   RETURN BUTTON
+============================== */
+
+.button-return {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+  font-family: Arial, Helvetica, sans-serif;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  font-weight: bold;
+  border: 2px solid #ffffff;
+  text-align: center;
+  width: 136px;
+  height: 175.5px;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.button-return p {
+  margin: 10px 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Default */
+.return-icon {
+  width: 64px;
+  height: 64px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url("https://the-void-plane.neocities.org/technical/icons/gateway.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button-return:hover p {
+  text-decoration: underline;
+}
