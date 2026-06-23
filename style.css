@@ -234,6 +234,7 @@ body::selection {
   width: 100%;
   height: auto;
   border: 2px solid #ffffff;
+  border-radius: 8px;
   box-sizing: border-box;
 }
 .image-div p {
