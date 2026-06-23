@@ -2,10 +2,6 @@
    MAIN
 ============================== */
 
-html {
-  cursor: url("https://the-void-plane.neocities.org/technical/cursors/look.png") 16 16, auto;
-}
-
 body {
   background-image: url("https://singularity-weather.vercel.app/images/weather-events/clouds/cumulus1.jpg");
   background-size: cover;
