@@ -197,7 +197,6 @@ body::selection {
   color: inherit;
   font-weight: bold;
   text-decoration: underline;
-  cursor: url("https://the-void-plane.neocities.org/technical/cursors/look.png") 16 16, auto;
 }
 .archive-link:hover {
   text-decoration: underline;
