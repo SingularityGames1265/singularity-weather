@@ -296,6 +296,7 @@ body::selection {
   border: 2px solid #ffffff;
   display: block;
   margin: 0 auto 15px auto;
+  border-radius: 8px;
 }
 
 .lightbox-content p {
