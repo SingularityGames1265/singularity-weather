@@ -193,15 +193,16 @@ body::selection {
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
 }
-.archive-link {
+
+.link {
   color: inherit;
   font-weight: bold;
   text-decoration: underline;
 }
-.archive-link:hover {
+.link:hover {
   text-decoration: underline;
 }
-.archive-link:hover span.visible-char {
+.link:hover span.visible-char {
   text-decoration: underline;
 }
 
