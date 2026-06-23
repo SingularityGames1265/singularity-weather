@@ -157,7 +157,7 @@ body::selection {
   transition: background-image 0.2s ease;
 }
 
-.button.visited:hover p {
+.button:hover p {
   text-decoration: underline;
 }
 
@@ -351,6 +351,6 @@ body::selection {
   overflow: hidden;
 }
 
-.return-button.visited:hover p {
+.return-button:hover p {
   text-decoration: underline;
 }
