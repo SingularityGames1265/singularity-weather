@@ -235,10 +235,6 @@ body::selection {
   height: auto;
   border: 2px solid #ffffff;
   box-sizing: border-box;
-
-  /* Fully hidden initially */
-  -webkit-mask-image: linear-gradient(to bottom, black 0%, black 0%, transparent 0%, transparent 100%);
-  mask-image: linear-gradient(to bottom, black 0%, black 0%, transparent 0%, transparent 100%);
 }
 .image-div p {
   margin: 10px 0 0 0;
