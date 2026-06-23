@@ -129,6 +129,7 @@ body::selection {
   height: 175.5px;
   line-height: 1.25;
   letter-spacing: 0.5px;
+  transition: transform 0.3s ease;
 }
 
 .button:hover {
