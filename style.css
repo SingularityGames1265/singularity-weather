@@ -29,7 +29,7 @@ body {
 ============================== */
 
 .cumulus-clouds {
-  background-image: url("https://singularity-weather.vercel.app/images/weather-events/clouds/altocumulus2.jpg"); 
+  background-image: url("https://singularity-weather.vercel.app/images/weather-events/clouds/cumulus1.jpg"); 
 }
 .stratus-clouds {
   background-image: url("https://singularity-weather.vercel.app/images/weather-events/clouds/stratus1.jpg"); 
