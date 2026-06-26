@@ -9,7 +9,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #ffffff;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 4px rgba(0, 0, 0, 1.2);
   font-family: Arial, Helvetica, sans-serif;
   min-height: 98.4vh;
   min-width: 98.4vw;
@@ -38,7 +38,7 @@ body {
 body::selection {
   background: rgba(255, 255, 255, 0.2);
   color: #ffffff;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 4px rgba(0, 0, 0, 1.2);
 }
 
 .centered-div {
@@ -46,7 +46,7 @@ body::selection {
   backdrop-filter: blur(10px);
   border-radius: 8px;
   color: #ffffff;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 4px rgba(0, 0, 0, 1.2);
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
@@ -124,7 +124,7 @@ body::selection {
   justify-content: flex-start;
   text-decoration: none;
   color: #ffffff;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 4px rgba(0, 0, 0, 1.2);
   font-family: Arial, Helvetica, sans-serif;
   background: transparent;
   backdrop-filter: blur(10px);
@@ -276,7 +276,7 @@ body::selection {
 .lightbox {
   position: fixed;
   inset: 0;
-  background: radial-gradient(circle, rgba(0,0,0,0.85) 40%, rgba(0,0,0,0.95) 100%);
+  background: radial-gradient(circle, rgba(0,0,0,1.25) 40%, rgba(0,0,0,0.95) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -309,7 +309,7 @@ body::selection {
 .lightbox-content p {
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 4px rgba(0, 0, 0, 1.2);
   margin: 0;
 }
 
@@ -327,7 +327,7 @@ body::selection {
   justify-content: flex-start;
   text-decoration: none;
   color: #ffffff;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 4px rgba(0, 0, 0, 1.2);
   font-family: Arial, Helvetica, sans-serif;
   background: transparent;
   backdrop-filter: blur(10px);
