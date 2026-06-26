@@ -124,7 +124,7 @@ body::selection {
   justify-content: flex-start;
   text-decoration: none;
   color: #ffffff;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 2);
+  text-shadow: 0 0 1px rgba(0, 0, 0, 2);
   font-family: Arial, Helvetica, sans-serif;
   background: transparent;
   backdrop-filter: blur(10px);
