@@ -34,6 +34,9 @@ body {
 .stratus-clouds {
   background-image: url("https://singularity-weather.vercel.app/images/weather-events/clouds/stratus1.jpg"); 
 }
+.storm-clouds {
+  background-image: url("https://singularity-weather.vercel.app/images/weather-events/storms/asperitas1.jpg"); 
+}
 
 body::selection {
   background: rgba(255, 255, 255, 0.2);
