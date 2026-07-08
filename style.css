@@ -10,7 +10,7 @@ body {
   background-attachment: fixed;
   color: #ffffff;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: VCR;
   min-height: 98.4vh;
   min-width: 98.4vw;
   display: flex;
@@ -50,7 +50,7 @@ body::selection {
   border-radius: 8px;
   color: #ffffff;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: VCR;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,18 +68,18 @@ body::selection {
   padding: 10px;
   margin: 0 auto;
   background-color: transparent;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: VCR;
   line-height: 1.25;
   letter-spacing: 0.5px;
 }
 .borderless-textbox h1{
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: VCR;
 }
 
 .borderless-textbox p{
   text-align: justify;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: VCR;
 }
 
 /* ==============================
@@ -128,7 +128,7 @@ body::selection {
   text-decoration: none;
   color: #ffffff;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: VCR;
   background: transparent;
   backdrop-filter: blur(10px);
   border-radius: 8px;
@@ -194,18 +194,18 @@ body::selection {
   background: transparent;
   backdrop-filter: blur(10px);
   border-radius: 8px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: VCR;
   line-height: 1.25;
   letter-spacing: 0.5px;
 }
 .page-div h1{
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: VCR;
 }
 
 .page-div p{
   text-align: justify;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: VCR;
 }
 
 .link {
@@ -233,7 +233,7 @@ body::selection {
   background: transparent;
   backdrop-filter: blur(10px);
   border-radius: 8px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: VCR;
   text-align: center;
   line-height: 1.25;
   letter-spacing: 0.5px;
@@ -310,7 +310,7 @@ body::selection {
 }
 
 .lightbox-content p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: VCR;
   color: #ffffff;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
   margin: 0;
@@ -331,7 +331,7 @@ body::selection {
   text-decoration: none;
   color: #ffffff;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: VCR;
   background: transparent;
   backdrop-filter: blur(10px);
   border-radius: 8px;
