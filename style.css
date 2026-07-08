@@ -2,13 +2,6 @@
    MAIN
 ============================== */
 
-@font-face {
-    font-family: "VCR";
-    src: url("vcr.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
   background-image: url("https://singularity-weather.vercel.app/images/weather-events/clouds/cumulus1.jpg");
   background-size: cover;
@@ -17,7 +10,7 @@ body {
   background-attachment: fixed;
   color: #ffffff;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
-  font-family: VCR;
+  font-family: Arial, Helvetica, sans-serif;
   min-height: 98.4vh;
   min-width: 98.4vw;
   display: flex;
@@ -57,7 +50,7 @@ body::selection {
   border-radius: 8px;
   color: #ffffff;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
-  font-family: VCR;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,18 +68,18 @@ body::selection {
   padding: 10px;
   margin: 0 auto;
   background-color: transparent;
-  font-family: VCR;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.25;
   letter-spacing: 0.5px;
 }
 .borderless-textbox h1{
   text-align: center;
-  font-family: VCR;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .borderless-textbox p{
   text-align: justify;
-  font-family: VCR;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ==============================
@@ -135,7 +128,7 @@ body::selection {
   text-decoration: none;
   color: #ffffff;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
-  font-family: VCR;
+  font-family: Arial, Helvetica, sans-serif;
   background: transparent;
   backdrop-filter: blur(10px);
   border-radius: 8px;
@@ -201,18 +194,18 @@ body::selection {
   background: transparent;
   backdrop-filter: blur(10px);
   border-radius: 8px;
-  font-family: VCR;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.25;
   letter-spacing: 0.5px;
 }
 .page-div h1{
   text-align: center;
-  font-family: VCR;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .page-div p{
   text-align: justify;
-  font-family: VCR;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .link {
@@ -240,7 +233,7 @@ body::selection {
   background: transparent;
   backdrop-filter: blur(10px);
   border-radius: 8px;
-  font-family: VCR;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   line-height: 1.25;
   letter-spacing: 0.5px;
@@ -317,7 +310,7 @@ body::selection {
 }
 
 .lightbox-content p {
-  font-family: VCR;
+  font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
   margin: 0;
@@ -338,7 +331,7 @@ body::selection {
   text-decoration: none;
   color: #ffffff;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
-  font-family: VCR;
+  font-family: Arial, Helvetica, sans-serif;
   background: transparent;
   backdrop-filter: blur(10px);
   border-radius: 8px;
