@@ -52,6 +52,7 @@ body::selection {
   color: #ffffff;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
   font-family: VCR;
+  unicode-bidi: isolate;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,17 +71,20 @@ body::selection {
   margin: 0 auto;
   background-color: transparent;
   font-family: VCR;
+  unicode-bidi: isolate;
   line-height: 1.25;
   letter-spacing: 0.5px;
 }
 .borderless-textbox h1{
   text-align: center;
   font-family: VCR;
+  unicode-bidi: isolate;
 }
 
 .borderless-textbox p{
   text-align: justify;
   font-family: VCR;
+  unicode-bidi: isolate;
 }
 
 /* ==============================
@@ -130,6 +134,7 @@ body::selection {
   color: #ffffff;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
   font-family: VCR;
+  unicode-bidi: isolate;
   background: transparent;
   backdrop-filter: blur(10px);
   border-radius: 8px;
@@ -196,17 +201,20 @@ body::selection {
   backdrop-filter: blur(10px);
   border-radius: 8px;
   font-family: VCR;
+  unicode-bidi: isolate;
   line-height: 1.25;
   letter-spacing: 0.5px;
 }
 .page-div h1{
   text-align: center;
   font-family: VCR;
+  unicode-bidi: isolate;
 }
 
 .page-div p{
   text-align: justify;
   font-family: VCR;
+  unicode-bidi: isolate;
 }
 
 .link {
@@ -235,6 +243,7 @@ body::selection {
   backdrop-filter: blur(10px);
   border-radius: 8px;
   font-family: VCR;
+  unicode-bidi: isolate;
   text-align: center;
   line-height: 1.25;
   letter-spacing: 0.5px;
@@ -312,6 +321,7 @@ body::selection {
 
 .lightbox-content p {
   font-family: VCR;
+  unicode-bidi: isolate;
   color: #ffffff;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
   margin: 0;
@@ -333,6 +343,7 @@ body::selection {
   color: #ffffff;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
   font-family: VCR;
+  unicode-bidi: isolate;
   background: transparent;
   backdrop-filter: blur(10px);
   border-radius: 8px;
