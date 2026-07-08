@@ -58,7 +58,7 @@ body::selection {
   align-items: center;
   justify-content: center;
   
-  font-size: large;
+  font-size: 2em;
   text-align: center;
   height: 100%; 
   margin: auto;
